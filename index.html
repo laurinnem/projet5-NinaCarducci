@@ -12,11 +12,33 @@
 		rel="stylesheet">
 	<meta charset="UTF-8">
 	<title>Nina Carducci - photographe professionnelle</title>
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
+	<!-- rich snippet -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Photographer",
+			"name": "Nina Carducci",
+			"jobTitle": "Photographe professionnelle",
+			"url": "https://nina-carducci.github.io/",
+			"image": "https://nina-carducci.github.io/assets/images/nina.webp",
+			"description": "Nina Carducci, photographe professionnelle à Bordeaux. 
+			Pour capturer vos moments les plus précieux et garder un souvenir impérissable, 
+			je me déplace en Île-de-France pour réaliser vos photos",
+			"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200"
+		  },
+		  "telephone": "0556677889",
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		}
+	</script>
 </head>
 
 <body>
