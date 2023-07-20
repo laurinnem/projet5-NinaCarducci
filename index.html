@@ -3,8 +3,8 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preload" as="style" onload="this.rel='stylesheet'" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="preload" as="style" onload="this.rel='stylesheet'" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -41,26 +41,25 @@
 
 	<!-- rich snippet -->
 	<script type="application/ld+json" defer>
-		{
-			"@context": "https://schema.org/",
-			"@type": "Photographer",
-			"name": "Nina Carducci",
-			"jobTitle": "Photographe professionnelle",
-			"url": "https://nina-carducci.github.io/",
-			"image": "https://nina-carducci.github.io/assets/images/nina.webp",
-			"description": "Nina Carducci, photographe professionnelle à Bordeaux. 
-			Pour capturer vos moments les plus précieux et garder un souvenir impérissable, 
-			je me déplace en Île-de-France pour réaliser vos photos",
-			"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200"
-		  },
-		  "telephone": "0556677889",
-		  "openingHours": "Mo-Fr 10:00-19:00"
-		}
-	</script>
+        {
+            "@context": "https://schema.org/",
+            "@type": "ProfessionalService",
+            "name": "Nina Carducci",
+            "url": "https://nina-carducci.github.io/",
+            "image": "https://nina-carducci.github.io/assets/images/nina.webp",
+            "description": "Nina Carducci, photographe professionnelle à Bordeaux. 
+            Pour capturer vos moments les plus précieux et garder un souvenir impérissable, 
+            je me déplace en Île-de-France pour réaliser vos photos",
+            "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "68 avenue Alsace-Lorraine",
+            "addressLocality": "Bordeaux",
+            "postalCode": "33200"
+          },
+          "telephone": "0556677889",
+          "openingHours": "Mo-Fr 10:00-19:00"
+        }
+    </script>
 </head>
 
 <body>
